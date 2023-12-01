@@ -1,0 +1,53 @@
+.converterContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 60px auto 0;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #3d8abe;
+  color: #fff;
+  font-size: 18px;
+}
+
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+.currencyContainer {
+  display: flex;
+
+  &:not(:last-child) {
+    margin-bottom: 40px;
+  }
+}
+
+.amountInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-right: 5px;
+  font-size: 20px;
+  font-weight: 600;
+
+  &::placeholder {
+    color: #fff;
+  }
+}
+
+.currencySelect {
+  width: 60%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 600;
+}
